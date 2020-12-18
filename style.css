@@ -104,7 +104,7 @@ body {
     background: #FFFFFF47 0% 0% no-repeat padding-box;
     border: 1px solid #7070707A;
     border-radius: 20px;
-    width: 454px;
+    /* width: 454px; */
     height: 50px;
     margin-bottom: 30px
 }
@@ -313,4 +313,38 @@ position: absolute;
     .copyright-parish2 {
         display: block;
     }
+}
+
+/* Forgot Password */
+
+.push-down {
+    margin-top: 7em;
+}
+
+.forgot-password-head {
+    letter-spacing: .1rem;
+    color: rgb(158, 158, 158);
+    font-size: 1.2em;
+}
+
+.form-container {
+    margin-top : 5em
+}
+
+.forgot-password-text {
+    margin-bottom : 2em;
+    font: normal normal 600 16px/25px Poppins;
+    letter-spacing: 0.8px;
+    color: rgb(158, 158, 158); 
+}
+
+.update-btn {
+    border: 1px solid #CD0A21;
+    box-shadow: 5px 15px 45px #00000042;
+    border-radius: 20px;
+    opacity: 1;  
+    font-size: 16px;
+    padding: 10px;
+    letter-spacing: 0.9px;
+    text-align: center
 }
