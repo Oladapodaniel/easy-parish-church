@@ -36,10 +36,10 @@
                                 <div class="line-login-text"></div>
                             </div>
                             <div class="label">USERNAME</div>
-                            <asp:TextBox ID="UserName" runat="server" class="col-md-9 col-lg-12 input-label" placeholder="Enter your username"/>
+                            <asp:TextBox ID="UserName" runat="server" class="col-12 col-md-9 col-lg-12 input-label" placeholder="Enter your username"/>
                  
                             <div class="label">PASSWORD</div>
-                            <asp:TextBox ID="Password" runat="server" type="password" class="col-md-9 col-lg-12 input-label" placeholder="Enter your password"/>
+                            <asp:TextBox ID="Password" runat="server" type="password" class="col-12 col-md-9 col-lg-12 input-label" placeholder="Enter your password"/>
                            
                             <div class="col-sm-6 offset-sm-6 invalid-text">
                             
@@ -50,7 +50,7 @@
                                 <div class="col-1"><asp:CheckBox runat="server" type="checkbox" ID="RememberMe"/></div>
                                 <div class="col-5">Remember me</div>
 
-                                    <asp:LinkButton ID="forgotpassword" runat="server" onclick="LinkButton1_Click" xmlns:asp="#unknown" class="forgot-password">I Forgot My Password</asp:LinkButton> 
+                                    <asp:LinkButton ID="forgotpassword"  runat="server" onclick="LinkButton1_Click" xmlns:asp="#unknown" class="forgot-password">I Forgot My Password</asp:LinkButton> 
 
                            </div>
                             </div>
@@ -70,7 +70,7 @@
                             <SuccessTemplate>
                               
                                     A new password has been successfully sent to your registered mail address
-                                    <a href="Default.aspx" style="color:White;">LOG IN</a></td>
+                                    <a href="Default.aspx" >LOG IN</a></td>
                                              
                             </SuccessTemplate>
 
@@ -87,7 +87,9 @@
                             </div>
                             <div class="d-flex justify-content-between mt-4 col-sm-12 pl-0 pr-0">
                                 <div class="update-btn col-sm-4">
-                                 <asp:LinkButton ID="login" runat="server" xmlns:asp="#unknown" OnClick="login_Click">Login</asp:LinkButton>
+                                 <asp:LinkButton ID="login" style="
+    color: darkgrey;
+" runat="server" xmlns:asp="#unknown" OnClick="login_Click">Login</asp:LinkButton>
                                  </div>
                                 <a  class="offset-sm-2">
                                      <asp:Button ID="SubmitButton" runat="server" CommandName="Submit" 

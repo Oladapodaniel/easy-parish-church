@@ -358,3 +358,11 @@
     letter-spacing: 0.9px;
     text-align: center
 }
+
+.line-login {
+    width: 270px;
+}
+
+#login {
+    color: darkgrey;
+}
