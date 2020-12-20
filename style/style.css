@@ -3,6 +3,11 @@
     font-size: 0.9em;
 }
 
+.forgot-password {
+    color: #212529;
+    outline-color: #212529;
+}
+
 .bg-left {
     background-image: url('../assets/indexbg.jpg');
     /* background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi"); */
@@ -100,7 +105,7 @@
     background: #FFFFFF47 0% 0% no-repeat padding-box;
     border: 1px solid #7070707A;
     border-radius: 20px;
-    width: 454px;
+    /* width: 454px; */
     height: 50px;
     margin-bottom: 30px
 }
@@ -163,11 +168,10 @@
 
 
 .nav-text {
-    /* position: relative; 
-    top: -27px; 
-    left: 70px; */
+    position: relative;
+    top: -27px;
+    left: 70px;
     color: white;
-    /* display: none; */
     width: 50%;
     opacity: 0
 }
@@ -288,7 +292,7 @@
     margin-left: 30px;
     margin-top: 15px;
 }
-assets
+
 .goal {
     border: 2px solid red;
 }
@@ -306,5 +310,51 @@ assets
 
     .copyright-parish2 {
         display: block;
+        margin-top: 25px;
+        font-size: 0.9em;
     }
+}
+
+@media (max-width: 551px) {
+    .parish-text {
+        font-size: 2.2em;
+    }
+
+    .welcome-login {
+        font-size: 1.3em
+    }
+}
+
+/* Forgot Password */
+
+.push-down {
+    margin-top: 7em;
+}
+
+.forgot-password-head {
+    letter-spacing: .1rem;
+    color: rgb(158, 158, 158);
+    font-size: 1.2em;
+}
+
+.form-container {
+    margin-top: 5em
+}
+
+.forgot-password-text {
+    margin-bottom: 2em;
+    font: normal normal 600 16px/25px Poppins;
+    letter-spacing: 0.8px;
+    color: rgb(158, 158, 158);
+}
+
+.update-btn {
+    border: 1px solid #CD0A21;
+    box-shadow: 5px 15px 45px #00000042;
+    border-radius: 20px;
+    opacity: 1;
+    font-size: 16px;
+    padding: 10px;
+    letter-spacing: 0.9px;
+    text-align: center
 }

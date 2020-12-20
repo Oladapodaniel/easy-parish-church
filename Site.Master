@@ -1,0 +1,51 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="EasyParish.Site" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    
+    <div class="container-fluid bg-report">
+        
+        <div class="head-pane"></div>
+        <div class="row">
+            <div class="col-4 col-md-3 col-lg-2">
+                <div class="side-nav" id="side-nav">
+                    <div class="logo"><img src="./assets/church project/Group 376.png"></div>
+                    <div class="home"><img src="./assets/church project/Group 373.png"></div><div class="nav-text one"> Home</div>
+                    <div class="administrator"><img src="./assets/church project/Icon material-supervisor-account.png"></div><div class="nav-text two">Administrator</div>
+                    <div class="spreadsheet"><img src="./assets/church project/Icon open-spreadsheet.png" alt=""></div><div class="nav-text three">Recording Sheet</div>
+                    <div class="accounting"><img src="./assets/church project/Group 374.png" alt=""></div><div class="nav-text four">Accounting Document</div>
+                    <div class="specimen"><img src="./assets/church project/Group 375.png" alt=""></div><div class="nav-text five">Account Specimen</div>
+                </div>
+            </div>
+            <div class="col-8 col-md-9 col-lg-10 bg-report2">
+                <div class="row mt-4">
+                    <div class="col-sm-10 col-md-6">
+                        <img src="./assets/church project/Search.png" class="search-icon">
+                        <input type="text" class="input-search" placeholder="Search ...">
+                    </div>
+                    <div class="d-none d-md-block col-md-4 text-right">
+                        <img src="./assets/church project/alarm-bell-184.png">&nbsp;&nbsp;&nbsp;&nbsp;<img src="./assets/church project/AdobeStock_-332.png">&nbsp;&nbsp;<span>Joshua</span>
+                    </div>
+                    
+                </div>
+                
+               <!-- MAIN CONTENT -->
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>              
+                <!-- END MAIN CONTENT -->
+            </div>
+        </div>
+    </div>
+    
+</body>
+    <script src="scripts/app.js"></script>
+</html>
