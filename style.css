@@ -149,6 +149,10 @@ body {
     .welcome-login {
         font-size: 1.3em
     }
+
+    .line-login {
+        width: 270px;
+    }
 }
 
 /* Financial report */
