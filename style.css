@@ -141,6 +141,16 @@ body {
     display: none;
 }
 
+@media (max-width: 551px) {
+    .parish-text {
+        font-size: 2.2em;
+    }
+
+    .welcome-login {
+        font-size: 1.3em
+    }
+}
+
 /* Financial report */
 .side-nav {
     background-color: #830213;
@@ -312,6 +322,8 @@ position: absolute;
 
     .copyright-parish2 {
         display: block;
+        margin-top: 25px;
+        font-size: 0.9em;
     }
 }
 
